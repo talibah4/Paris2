@@ -1,0 +1,241 @@
+/* 
+/*Dina Salama Paris Website Project*/
+
+/*li{
+display: inline-block;
+padding: 5px;
+font-size: 16px;
+}
+
+#flag{
+height: 40px;
+width: 60px;
+/*margin-top: 100px;
+margin-right: -460px;*/
+
+float: right;
+border-radius: 5px;
+} /*france flag on index page*/
+
+div {
+display: inline-block;
+}
+
+table{
+width:60%; 
+border-collapse:collapse;
+margin-left: 100px;
+}
+
+.tools{
+border-bottom: 2px solid white;
+padding: 50px;
+text-align: center;
+font-size: 40px;
+font-family: Helvetica;
+font-weight: bold;
+background: #66FF99;
+opacity: 0.6;
+}
+
+.tools:hover{
+background:red;
+color: white;
+}
+
+.descriptions{
+padding: 20px;
+text-align: left;
+font-size: 20px;
+font-family: Helvetica;
+background: white;
+}
+
+.definitions{
+padding: 35px;
+text-align: left;
+font-size: 35px;
+font-family: Helvetica;
+background: white;
+}
+
+.definitions:hover{
+background:red;
+color: white;
+}
+
+.phrases{
+border-bottom: 2px solid white;
+padding: 50px;
+text-align: center;
+font-size: 35px;
+font-family: Helvetica;
+font-weight: bold;
+background: #66FF99;
+opacity: 0.6;
+width:50%
+}
+
+th{
+font-size: 55px;
+font-family: Helvetica;
+color: white;
+background: #000000;
+padding: 50px;
+text-align:center;
+}
+
+td:hover{
+background:red;
+color: white;
+}
+
+#indexnav a:link {
+color: white;
+font-family: Helvetica;
+text-decoration: none;
+}
+#indexnav a:visited {
+color: #000066;
+font-family: Helvetica;
+text-decoration: none;
+}
+#indexnav a:hover {
+color: red;
+font-family: Helvetica;
+text-decoration: none;
+}
+#indexnav a:active {
+color: red;
+font-family: Helvetica;
+text-decoration: none;
+}
+
+#mainnav a:link {
+color: #000066;
+font-family: Helvetica;
+text-decoration: none;
+}
+#mainnav a:visited {
+color: #000066;
+font-family: Helvetica;
+text-decoration: none;
+}
+#mainnav a:hover {
+color: red;
+font-family: Helvetica;
+text-decoration: none;
+}
+#mainnav a:active {
+color: red;
+font-family: Helvetica;
+text-decoration: none;
+}
+
+#title{
+margin-top: 250px;
+margin-right: 50px;
+float: right; /*title on index page */
+}
+
+#dayOne{
+width:263px;
+height:115px;
+background-color: blue;
+margin-top: 250px;
+}
+
+#dayOne:hover{
+width:263px;
+height:115px;
+background-color: #66CCFF; 
+margin-top: 250px;
+}
+
+#eiffel th{
+padding: 0px;
+background: yellow;
+}
+
+#dayTwo{
+width:263px;
+height:115px;
+background-color:#4c0000;
+margin-top: 250px;
+}
+
+#dayTwo:hover{
+width:263px;
+height:115px;
+background-color:red;
+margin-top: 250px;
+}
+
+#dayThree{
+width:263px;
+height:115px;
+background-color: #FFCC00;
+margin-top: 250px;
+}
+
+#dayThree:hover{
+width:263px;
+height:115px;
+background-color: #b82ee6;
+margin-top: 250px;
+}
+
+#dayFour{
+width:263px;
+height:115px;
+background-color: green;
+margin-top: 250px;
+}
+
+#dayFour:hover{
+width:263px;
+height:115px;
+background-color: black;
+margin-top: 250px;
+}
+
+#dayFive{
+width:263px;
+height:115px;
+background-color: purple;
+margin-top: 250px;
+}
+
+#dayFive:hover{
+width:263px;
+height:115px;
+background-color: black;
+margin-top: 250px;
+}
+
+#aboutMe{
+width: 900px;
+height: 275px;
+margin-left: 100px;
+background-color:#2B2B23;
+/*border-radius: 5px;*/
+}
+
+.numbers{
+text-align: center;
+font-size:80px;
+font-family: Impact;
+color: white;
+margin-top: -.5px;
+}
+
+.headings{
+margin-left: 100px;
+}
+
+
+
+
+
+
+ */

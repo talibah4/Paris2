@@ -1,0 +1,151 @@
+<div class="tables">
+<div class= "tableOne">
+<table class="eiffel">
+	<thead>
+		<tr>
+			<th> Eiffel Tower </th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><!--Description Here--></td>
+		</tr>
+		<tr>
+			<td style= "font-family:Helvetica; font-size:30px; font-weight:bold">Opening Hours</td>
+		</tr>
+		<tr>
+			<td><!--Hours Here--></td>
+		</tr>
+		<tr>
+			<td style= "font-family:Helvetica; font-size:30px; font-weight:bold">Admission</td>
+		</tr>
+		<tr>
+			<td style= "font-family:Helvetica; font-size:30px; font-weight:bold"><!--Admin Info Here--></td>
+		</tr>
+		<tr>
+			<td style= "font-family:Helvetica; font-size:30px; font-weight:bold">Contact</td>
+		</tr>
+		<tr>
+			<td><!--Contact Info Here--></td>
+		</tr>
+		<tr>
+			<td style= "font-family:Helvetica; font-size:30px; font-weight:bold">Map</td>
+		</tr>
+		<tr>
+			<td><!--Map Info Here--></td>
+		</tr>
+		<!--<tr>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+		</tr>-->
+	</tbody>
+</table>
+</div>
+<div class="tableTwo">
+<table class="cafe">
+	<thead>
+		<tr>
+			<th> Cafe Constant </th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><!--Description Here--></td>
+		</tr>
+		<tr>
+			<td style= "font-family:Helvetica; font-size:30px; font-weight:bold">Opening Hours</td>
+		</tr>
+		<tr>
+			<td><!--Hours Here--></td>
+		</tr>
+		<tr>
+			<td style= "font-family:Helvetica; font-size:30px; font-weight:bold">Admission</td>
+		</tr>
+		<tr>
+			<td><!--Admin Info Here--></td>
+		</tr>
+		<tr>
+			<td style= "font-family:Helvetica; font-size:30px; font-weight:bold">Contact</td>
+		</tr>
+		<tr>
+			<td><!--Contact Info Here--></td>
+		</tr>
+		<tr>
+			<td style= "font-family:Helvetica; font-size:30px; font-weight:bold">Map</td>
+		</tr>
+		<tr>
+			<td><!--Map Info Here--></td>
+		</tr>
+		<!--<tr>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+		</tr>-->
+	</tbody>
+</table>
+</div>
+<div class="tableThree">
+<table class="mars">
+	<thead>
+		<tr>
+			<th> Champs de Mars </th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><!--Description Here--></td>
+		</tr>
+		<tr>
+			<td style= "font-family:Helvetica; font-size:30px; font-weight:bold">Opening Hours</td>
+		</tr>
+		<tr>
+			<td><!--Hours Here--></td>
+		</tr>
+		<tr>
+			<td style= "font-family:Helvetica; font-size:30px; font-weight:bold">Admission</td>
+		</tr>
+		<tr>
+			<td><!--Admin Info Here--></td>
+		</tr>
+		<tr>
+			<td style= "font-family:Helvetica; font-size:30px; font-weight:bold">Contact</td>
+		</tr>
+		<tr>
+			<td><!--Contact Info Here--></td>
+		</tr>
+		<tr>
+			<td style= "font-family:Helvetica; font-size:30px; font-weight:bold">Map</td>
+		</tr>
+		<tr>
+			<td><!--Map Info Here--></td>
+		</tr>
+		<!--<tr>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+		</tr>-->
+	</tbody>
+</table>
+</div>
