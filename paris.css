@@ -1,0 +1,554 @@
+/*Created by: Dina Salama
+West Los Angeles College
+CS 957 Introduction to Web Development using HTML5 & CSS
+Fall 2014 Final Project*/
+
+nav{
+display: inline-block;
+}
+nav li{
+display: inline;
+padding: 5px;
+font-size: 16px;
+}
+nav a{
+text-transform:uppercase;
+}
+nav a:link {
+color: #0000b3;
+font-family: Helvetica;
+text-decoration: none;
+}
+nav a:visited {
+color: 	#9900CC;
+font-family: Helvetica;
+text-decoration: none;
+}
+nav a:hover {
+color: red;
+font-family: Helvetica;
+text-decoration: none;
+text-shadow: 1px 1px 2px #000066;;
+}
+nav a:active {
+color: red;
+font-family: Helvetica;
+text-decoration: none;
+}
+a:link {
+color: #0000b3;
+font-family: Helvetica;
+text-decoration: none;
+}
+a:visited {
+color: 	#9900CC;
+font-family: Helvetica;
+text-decoration: none;
+}
+a:hover {
+color: red;
+font-family: Helvetica;
+text-decoration: none;
+}
+a:active {
+color: red;
+font-family: Helvetica;
+text-decoration: none;
+}
+.tools a:hover{
+color:white;
+font-family: Helvetica;
+text-decoration: none;
+}
+.tools a:active{
+color:white;
+font-family: Helvetica;
+text-decoration: none;
+}
+.itineraryNav li{
+list-style-type: none;
+display: inline-block;
+padding: 3px;
+position: relative;
+left: -43px;
+}
+.itineraryNav ul{
+margin: 0 auto;
+}
+.titles{
+font-family:Impact;
+font-size:85px;
+color:red;
+width:100%;
+}
+.titles h3{
+padding-left:50px;
+position:relative;
+top: -90px;
+}
+.flag{
+display: inline-block;
+float: right;
+}
+.home{
+display: inline-block;
+float: right;
+}
+.flag img{
+height: 40px;
+width: 60px;
+float: right;
+border-radius: 5px;
+}
+.home img{
+height: 50px;
+width: 50px;
+float: right;
+}
+.twitter{
+position: relative;
+margin-left:0px;
+margin-top:-250px;
+}
+.indexjumbotron{
+background-image: url('Images/Eiffel.jpg');
+height: 905px;
+width: 100%;
+position:relative;
+top: -70px;
+}
+.indexjumbotron p{
+font-size: 85px;
+font-family:Impact; /*ADD MORE FONTS*/
+color:red;
+position:relative;
+top: 305px;
+left: 700px;
+}
+.aboutMejumbotron{
+background-image:url('Images/monaLisa.jpeg');
+height: 605px;
+width: 100%;
+position:relative;
+top: -180px;
+}
+.aboutMejumbotron p{
+padding-top:15px;
+}
+.aboutMeBox{
+background:#20201D;
+width: 1000px;
+height: 250px;
+position:relative;
+top: 75px;
+left:40px;
+}
+.contactjumbotron{
+background-image:url('Images/monaLisa.jpeg');
+height: 605px;
+width: 100%;
+position:relative;
+top: -180px;
+}
+.tourjumbotron{
+background-image:url('Images/monaLisa.jpeg');
+height: 605px;
+width: 100%;
+position:relative;
+top: -180px;
+}
+iframe{
+position:relative;
+top: 75px;
+left:40px;
+}
+.mainjumbotron{
+background-image:url('Images/metromap.jpg');
+height: 605px;
+width: 100%;
+position:relative;
+top: 20px;
+}
+.mainjumbotron div{
+display:inline-block;
+}
+.larme{
+position:relative;
+left: 50px;
+}
+.container{
+max-width: 100%;
+margin-left: 80px;
+}
+.numbers{
+text-align: center;
+font-size:80px;
+font-family: Impact;
+color: white;
+margin-top: -.5px;
+}
+.travelToolsjumbotron{
+background-image:url('Images/banner.gif');
+height: 1900px;
+width: 100%;
+position:relative;
+top: -140px;
+}
+.frenchjumbotron{
+background-image:url('Images/centre1.jpg');
+height: 5900px;
+width: 100%;
+position:relative;
+top: -140px;
+}
+form{
+background: #66FF99;
+position: relative;
+top: 75px;
+left:40px;
+width:700px;
+padding:25px;
+}
+legend{
+font-family:Helvetica;
+font-size: 25px;
+font-weight: bold;
+}
+label{
+font-family:Helvetica;
+font-size: 16px;
+}
+fieldset{
+border: 1px solid #0000b3;;
+}
+/*ITINERARY CODE*/
+.images{
+max-width: 100%;
+position:relative;
+top: -140px;
+left:40px;
+}
+.images div{
+display:inline-block;
+}
+/*DAY 1*/
+.dayOneImgOne{
+background-image:url('Images/Eiffel2.jpg');
+width: 30%;
+height: 500px;
+}
+.dayOneImgOne:hover {
+background-image:url('Images/EiffelSign.jpg');
+}
+.dayOneImgTwo{
+background-image:url('Images/constant.jpg');
+width: 30%;
+height: 500px;
+}
+.dayOneImgTwo:hover {
+background-image:url('Images/cafe.jpg');
+}
+.dayOneImgThree{
+background-image:url('Images/parc.jpg');
+width: 30%;
+height: 500px;
+}
+.dayOneImgThree:hover {
+background-image:url('Images/MarsSign.jpg');
+}
+video{
+padding-left:0px;
+}
+/*DAY 2*/
+.dayTwoImgOne{
+background-image:url('Images/nemours.jpg');
+width: 30%;
+height: 500px;
+}
+.dayTwoImgOne:hover {
+background-image:url('Images/nemoursSign.jpg');
+}
+.dayTwoImgTwo{
+background-image:url('Images/louvre.jpg');
+width: 30%;
+height: 500px;
+}
+.dayTwoImgTwo:hover {
+background-image:url('Images/mona.jpg');
+}
+.dayTwoImgThree{
+background-image:url('Images/boat.jpg');
+width: 30%;
+height: 500px;
+}
+.dayTwoImgThree:hover {
+background-image:url('Images/boatbridge.jpg');
+}
+/*DAY 3*/
+.dayThreeImgOne{
+background-image:url('Images/regis.jpg');
+width: 30%;
+height: 500px;
+}
+.dayThreeImgOne:hover {
+background-image:url('Images/stregis.jpg');
+}
+.dayThreeImgTwo{
+background-image:url('Images/notredame.jpg');
+width: 30%;
+height: 500px;
+}
+.dayThreeImgTwo:hover {
+background-image:url('Images/naves.jpg');
+}
+.dayThreeImgThree{
+background-image:url('Images/shakespeare.jpg');
+width: 30%;
+height: 500px;
+}
+.dayThreeImgThree:hover {
+background-image:url('Images/books.jpg');
+}
+/*DAY 4*/
+.dayFourImgOne{
+background-image:url('Images/pompidou.jpg');
+width: 30%;
+height: 500px;
+}
+.dayFourImgOne:hover {
+background-image:url('Images/art.jpg');
+}
+.dayFourImgTwo{
+background-image:url('Images/stravinsky.jpg');
+width: 30%;
+height: 500px;
+}
+.dayFourImgTwo:hover {
+background-image:url('Images/lips.jpg');
+}
+.dayFourImgThree{
+background-image:url('Images/fallafel.jpg');
+width: 30%;
+height: 500px;
+}
+.dayFourImgThree:hover {
+background-image:url('Images/sandwich.jpg');
+}
+/*DAY 5*/
+.dayFiveImgOne{
+background-image:url('Images/flea.jpg');
+width: 30%;
+height: 500px;
+}
+.dayFiveImgOne:hover {
+background-image:url('Images/market.jpg');
+}
+.dayFiveImgTwo{
+background-image:url('Images/avenue.jpg');
+width: 30%;
+height: 500px;
+}
+.dayFiveImgTwo:hover {
+background-image:url('Images/champs.jpg');
+}
+.dayFiveImgThree{
+background-image:url('Images/bastide.jpg');
+width: 30%;
+height: 500px;
+}
+.dayFiveImgThree:hover {
+background-image:url('Images/odeon.jpg');
+}
+.tables{
+width: 100%;
+height: 1600px;
+position: relative;
+left: 40px;
+top: -140px;
+}
+.tables div{
+display:inline-block;
+}
+.tables table{
+width:100%;
+}
+.tables th{
+font-size: 35px;
+font-family: Helvetica;
+color: white;
+background: #000000;
+padding: 50px;
+text-align:center;
+width:30%;
+}
+.tables td{
+background: white;
+padding: 10px;
+font-family: Helvetica;
+font-size: 14px;
+line-height: 20px;
+color: 	#434335;
+border-bottom: 1px solid #D6D6C2;
+}
+.tableOne{
+width: 30%;
+height:1600px;
+border-right: 1px solid black;
+}
+.tableTwo{
+width: 30%;
+height:1600px;
+border-right: 1px solid black;
+}
+.tableThree{
+width: 30%;
+height:1600px;
+}
+/*BUTTON CODE*/
+#dayOne{
+width:225px;
+height:115px;
+background-color: blue;
+margin-top: 250px;
+}
+#dayOne:hover{
+width:225px;
+height:115px;
+background-color: #66CCFF; 
+margin-top: 250px;
+}
+#dayTwo{
+width:225px;
+height:115px;
+background-color:#4c0000;
+margin-top: 250px;
+}
+#dayTwo:hover{
+width:225px;
+height:115px;
+background-color:red;
+margin-top: 250px;
+}
+#dayThree{
+width:225px;
+height:115px;
+background-color: #FFCC00;
+margin-top: 250px;
+}
+#dayThree:hover{
+width:225px;
+height:115px;
+background-color: #FF9900;
+margin-top: 250px;
+}
+#dayFour{
+width:225px;
+height:115px;
+background-color: green;
+margin-top: 250px;
+}
+#dayFour:hover{
+width:225px;
+height:115px;
+background-color: #00FF00;
+margin-top: 250px;
+}
+#dayFive{
+width:225px;
+height:115px;
+background-color: purple;
+margin-top: 250px;
+}
+#dayFive:hover{
+width:225px;
+height:115px;
+background-color: #FF00FF;
+margin-top: 250px;
+}
+/*TABLE CODE*/
+.frenchjumbotron table{
+width:80%; 
+border-collapse:collapse;
+margin-left: 100px;
+position:relative;
+top: 75px;
+left:40px;
+}
+.frenchjumbotron th{
+font-size: 55px;
+font-family: Helvetica;
+color: white;
+background: #000000;
+padding: 50px;
+text-align:center;
+}
+.travelToolsjumbotron table{
+width:80%; 
+border-collapse:collapse;
+margin-left: 100px;
+position:relative;
+top: 75px;
+left:40px;
+}
+.travelToolsjumbotron th{
+font-size: 55px;
+font-family: Helvetica;
+color: white;
+background: #000000;
+padding: 50px;
+text-align:center;
+}
+.tools{
+border-bottom: 2px solid white;
+padding: 50px;
+text-align: center;
+font-size: 40px;
+font-family: Helvetica;
+font-weight: bold;
+background: #66FF99;
+opacity: 0.65;
+}
+.tools:hover{
+background:red;
+color: white;
+}
+.descriptions{
+padding: 20px;
+text-align: left;
+font-size: 20px;
+font-family: Helvetica;
+background: white;
+color:#434335;
+}
+.phrases{
+border-bottom: 2px solid white;
+padding: 50px;
+text-align: center;
+font-size: 35px;
+font-family: Helvetica;
+font-weight: bold;
+background: #66FF99;
+opacity: 0.65;
+width:50%
+}
+.phrases:hover{
+background:red;
+color: white;
+}
+.speaker{
+display: inline-block;
+padding:10px;
+}
+.definitions{
+padding: 35px;
+text-align: left;
+font-size: 35px;
+font-family: Helvetica;
+background: white;
+color:#434335;
+}
+
+
+
+
+

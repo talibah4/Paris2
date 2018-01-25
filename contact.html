@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<!-- Created by: Dina Salama
+West Los Angeles College
+CS 957 Introduction to Web Development using HTML5 & CSS
+Fall 2014 Final Project-->
+
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8"/>
+	<link type="text/css" rel="stylesheet" media="screen" href="paris.css"/>
+	<link type="text/css" rel="stylesheet" media="print" href="parisprint.css"/>
+	<link type="image/jpg" rel="icon" href="Images/favicon.ico"/> <!--has to be a favicon.ico file  use google ico converter-->
+	<title> Paris, Je t'aime </title>
+</head>
+
+<body>
+<!--NAVIGATION-->
+<nav>
+		<div class= "nav">
+        <ul>
+          <li><a href="aboutme.html">About</a></li>
+		  <li><a href="contact.html">Contact</a></li>
+		  <li><a href="paristour.html">Paris Tour</a></li>
+		</ul>
+		</div>
+</nav>
+
+<!--FLAG NAVIGATION-->
+<div class="home">
+<a href= "index.html"><img src="Images/home.png" style="margin-top:-30px" alt="home_button"/></a>
+</div>
+
+<!--PAGE TITLE-->
+<div class="titles">
+<h3>contact</h3>
+</div>
+
+<!--CENTER JUMBOTRON-->
+<div class= "contactjumbotron">
+<form action="MAILTO:dsalama@ymail.com" method="post">
+<fieldset id="contactInfo">
+<legend> Contact Information </legend>
+<label>Name:
+<input type="text" id="nameInput" name="name" placeholder="First and last name"/></label>
+<label>Email Address:
+<input type="email" id="emailInput" name="email" placeholder="address@example.com"/></label>
+</fieldset><br>
+<fieldset id= "additionalInfo">
+<legend>Additional Information</legend>
+<label> Questions, comments, and/or feedback:<br>
+<textarea id="feedback" name="feedback" rows="4" cols="55"></textarea></label>
+</fieldset><br>
+<fieldset id= "submitButton" style= "border:none">
+<input type="submit" id="submit" value="Submit"/>
+</fieldset>
+</form>
+</div>
+
+</body>
+</html>
+
